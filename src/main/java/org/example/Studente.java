@@ -11,6 +11,9 @@ public class Studente {
     private int id;
 
     public Studente(String name,int id,double average){
+        if(average > 5 || average <0){
+            throw new RuntimeException("errore");
+        }
         this.name=name;
         this.average=average;
         this.id=id;

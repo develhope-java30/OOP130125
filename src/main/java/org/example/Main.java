@@ -2,6 +2,6 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Studente student1 = new Studente("Carlo",124134,12.32d);
     }
 }
