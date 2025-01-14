@@ -30,6 +30,15 @@ public class Studente {
     public double getAverage() {
         return average;
     }
+
+    @Override
+    public String toString() {
+        return "Studente { " +
+                "name = '" + name + '\'' +
+                ", average = " + average +
+                ", id = " + id +
+                '}';
+    }
 }
 
 
